@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анализ</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_inner">
+                    <a class="logo" href="style.html">
+                        <img class="logo" src="images/герб тольятти.png">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu_list">
+                            <li class="menu_list_item">
+                                <a href="index.html" class="menu_list_link menu_list_link1">Главная</a>
+                            </li>
+                            <li class="menu_list_item">
+                                <a href="about us.html" class="menu_list_link menu_list_link2">О нас</a>
+                            </li>
+                            <li class="menu_list_item">
+                                <a href="analysis.html" class="menu_list_link menu_list_link3">Проекты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="maps">
+                <div class="maps_container">
+                    <h1 class="maps_title">Проект</h1>
+                    <div class="tabs">
+                        <div class="tabs_btn">
+                            <button class="tabs_btn_item tabs_btn_item_active" onclick="openMaps(event, 'Мастер-планы')" data-button="content-1">Мастер-планы</button>
+                            <button class="tabs_btn_item" onclick="openMaps(event, 'Конкурсы')" data-button="content-2">Конкурсы</button>
+                            <button class="tabs_btn_item" onclick="openMaps(event, 'Лекции')" data-button="content-3">Лекции</button>
+                            <button class="tabs_btn_item" onclick="openMaps(event, 'Материалы')" data-button="content-4">Материалы</button>
+                        </div>
+                        <div class="tabs_content">
+                            <div class="tabs_content_item tabs_content_item-active" id="Мастер-планы">
+                                <div class="map_card">
+                                    <img src="images/мп_мск.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Мастер-план Москвы</h4>
+                                      <p class="card_text">разрабатывался нашей командой совместно со студией Артемия Лебедева в 2022 году</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>  
+                                </div>
+                                <div class="map_card">
+                                    <img src="images/чикаго.jpg" alt="" class="card_img">
+                                    <div class="card_content">
+                                      <h4 class="card_title">Мастер-план Чикаго</h4>
+                                      <p class="card_text">Вместе с потомками чикагской школы социологов нашей команде удалось разработать собственные пространственные ячейки, идеально ложащиеся на гипподамову сетку</p>
+                                    </div>
+                                      <a href="#" class="card_link">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tabs_content_item" id="Инфраструктура">
+                    
+                            </div>
+                            <div class="tabs_content_item" id="Транзит">
+                    
+                            </div>
+                            <div class="tabs_content_item" id="Анализ">
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <table>
+            <tr><th>наши компетенции</th><th>уровень</th></tr> 
+            <tr><td><a href="images/крокодил.jpg"><img class="td_img" src="images/крокодил.jpg"></a></td><td>данные</td></tr>
+            <tr><td> <a href="index.html">разработка мастер-планов</a></td><td>10/10</td></tr>
+            <tr><td>организация мероприятий урбанистической и архитектурной направленности</td><td>7/10</td></tr>
+            <tr><td>угощение всех кофе в обеденный перерыв</td><td>138302842/10</td></tr>
+            <tr><td>дружный коллектив</td><td>10/10</td></tr> 
+            </table>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer_menu">
+                    <ul class="footer_menu_list">
+                        <li class="footer_menu_item">
+                            <p class="footer_menu_title">Проекты</p>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Амстердам</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Салехард</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Москва</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Чикаго</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_menu_list">
+                        <li class="footer_menu_item">
+                            <p class="footer_menu_title">О нас</p>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Кто мы?</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Миссия</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Контакты</a>
+                        </li>
+                        <li class="footer_menu_item">
+                            <a href="#" class="footer_menu_link">Связаться с нами</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer_disclaimer">
+                    <p class="footer_disclaimer_content">
+                        Мы не любим воришек!
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div class="btn-up btn-up_hide">Наверх</div>
+    </div>
+    <script src="js/function.js"></script>
+
+</body>
+</html>
